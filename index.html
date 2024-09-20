@@ -3,64 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bài 20</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css"
-    />
+    <title>Học thẻ table cùng gà lại lập trình</title>
   </head>
   <body>
-    <h3>
-      Học thẻ <code class="language-html">&lt;table&gt;&lt;/table&gt;</code>
-    </h3>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
-    <table>
-      <thead>
-        <tr>
-          <th>Tên sản phẩm</th>
-          <th>Giá tiền</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Áo phông</td>
-          <td>100.000 vnđ</td>
-        </tr>
-        <tr>
-          <td>Quần jean</td>
-          <td>200.000 vnđ</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Tổng cộng</td>
-          <td>300.000 vnđ</td>
-        </tr>
-      </tfoot>
-    </table>
-    <hr />
+    <h1>Học thẻ table tiếp theo</h1>
     <table>
       <tr>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>DEL</td>
-        <td>AC</td>
-      <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>*</td>
-        <td>/</td>
-      </tr>   
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>+</td>
-        <td>-</td>
+        <th>Tên sản phẩm</th>
+        <th colspan="2">Mô tả</th>
       </tr>
-
+      <tr>
+        <td rowspan="2">Áo phông</td>
+        <td>Chất liệu</td>
+        <td>Bạt</td>
+      </tr>
+      <tr>
+        <td>Size</td>
+        <td>X, XL</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Quần jean</td>
+        <td colspan="2">Quần jean cao cấp dễ phối đồ</td>
+      </tr>
+    </table>
   </body>
 </html>
